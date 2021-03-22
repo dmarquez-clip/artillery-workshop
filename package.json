@@ -1,0 +1,28 @@
+{
+  "name": "performance-workshop",
+  "version": "1.0.0",
+  "description": "testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotenv artillery run --output results/report.json TodoListApp/performance.yml && artillery report --output results/report.html results/report.json",
+    "test3": "artillery run --output results/report.json TodoApp/performance.yml ",
+    "testnode": "node artillery.js",
+    "testfile": "artillery run data-out.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmarquez-clip/performance-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.6.2",
+    "dotenv": "^8.2.0",
+    "json-to-pretty-yaml": "^1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/dmarquez-clip/performance-workshop/issues"
+  },
+  "homepage": "https://github.com/dmarquez-clip/performance-workshop#readme"
+}
