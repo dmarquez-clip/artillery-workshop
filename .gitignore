@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+/performance-workshop.iml
+/.idea/
+/data-out.yml
+/package-lock.json
+/results/

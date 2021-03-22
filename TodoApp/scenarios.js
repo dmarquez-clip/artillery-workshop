@@ -1,0 +1,1 @@
+module.exports = options => {  return {    flow: [{      get: {        url: options.path + options.project      }    }]  }}
