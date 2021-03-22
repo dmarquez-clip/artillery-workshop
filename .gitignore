@@ -106,4 +106,5 @@ dist
 /.idea/
 /data-out.yml
 /package-lock.json
-/results/
+/results/*
+/ouputfile/
